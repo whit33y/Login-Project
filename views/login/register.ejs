@@ -1,0 +1,16 @@
+<% layout('./partials/boilerplate')%>
+<form method="POST">
+    <h1 class="text-center">Register</h1>
+    <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
+        <label for="name">Username</label>
+        <input type="text" class="form-control" id="username" name="username" placeholder="Enter your username">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+        <label for="passwordConfirm">Confirm your password</label>
+        <input type="password" class="form-control" id="passwordConfirm" name="passwordConfirm" placeholder="Confirm your password">
+    </div>
+    <br>
+    <button class="btn btn-primary" type="submit">Register!</button>
+</form>
