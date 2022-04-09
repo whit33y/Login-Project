@@ -1,0 +1,8 @@
+<%- layout('./boilerplate.ejs') %>
+<p>Username---email---pasword</p>
+<ul>
+    <% for( let u of users) { %>
+        <li><%=u.username%>---<%=u.email%>---<%=u.password%></li>
+    <% } %>
+</ul>
+<a href="/">back</a>
